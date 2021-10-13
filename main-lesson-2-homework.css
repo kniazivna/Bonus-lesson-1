@@ -1,0 +1,45 @@
+body{
+    background-color:beige;
+}
+h1{
+    text-align: center;
+}
+.header{
+    margin: 10px;
+}
+p{
+    text-align: justify;
+    margin: 10px;
+}
+img{
+    display: block;
+    margin: auto;
+    width: 333px;
+    height: 187px;
+}
+hr{
+    color: cadetblue;
+    border-width: 1px;
+    border-style: dotted;
+}
+div{
+    text-align: center;
+}
+ul,ol{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+    color: coral;
+}
+a:visited{
+    color: brown;
+}
+a:hover{
+    color: chocolate;
+    font-size: 1.2em;
+}
+span{
+    color: cadetblue;
+    font-weight: bold;
+}
