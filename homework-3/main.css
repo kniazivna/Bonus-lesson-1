@@ -1,0 +1,65 @@
+body {
+    margin: 0;
+    background: aliceblue;
+}
+
+h1 {
+    text-align: center;
+    margin: 0px;
+    padding: 15px;
+
+}
+
+.disc {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.header {
+    margin: 0px;
+}
+
+.img {
+    padding: 5px;
+    box-sizing: border-box;
+}
+
+.text {
+    font-size: 14px;
+    text-align: justify;
+    padding: 5px;
+    box-sizing: border-box;
+}
+.info{
+    display: flex;
+}
+
+.about {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+    width: 50%;
+    font-size: 14px;
+}
+
+.actors {
+    padding: 10px;
+    box-sizing: border-box;
+    text-align: justify;
+    font-size: 14px;
+    width: 50%;
+}
+
+.comments {
+    padding: 10px;
+}
+
+.comm {
+    min-height: 20px;
+    background: #c0bbbb;
+    padding: 5px;
+    box-sizing: border-box;
+    margin: 10px;
+    text-align: justify;
+}
