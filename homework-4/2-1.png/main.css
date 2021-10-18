@@ -1,0 +1,54 @@
+.con {
+    width: 1000px;
+    height: 800px;
+    display: flex;
+    flex-wrap: wrap;
+    box-sizing: border-box;
+    background: cadetblue;
+
+
+}
+
+#hdr {
+    background: dimgray;
+    width: 100%;
+    height: 25%;
+
+}
+.cntr {
+    background: #575444;
+    width: 100%;
+    height: 50%;
+    display: flex;
+}
+
+#mn {
+    background: honeydew;
+    width: 30%;
+    height: 100%;
+
+}
+.posts {
+    background: #3e3e3b;
+    width: 70%;
+    height: 100%;
+    flex-wrap: wrap;
+}
+
+.post1 {
+    background: aqua;
+    width: 100%;
+    height: 50%;
+}
+.post2 {
+    background: aquamarine;
+    width: 100%;
+    height: 50%;
+}
+
+#ftr {
+    background: blue;
+    width: 100%;
+    height: 25%;
+}
+
