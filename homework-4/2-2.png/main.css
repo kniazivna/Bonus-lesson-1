@@ -1,0 +1,46 @@
+.box {
+    background: #3e3e3b;
+    width: 1000px;
+    height: 600px;
+
+
+}
+
+.wdgts {
+    background: burlywood;
+    width: 100%;
+    height: 25%;
+}
+.widg {
+    background: #c4c3c3;
+    width: 100%;
+    height: 25%;
+    justify-content: space-between;
+    display: flex;
+}
+
+.big {
+    background: aquamarine;
+    width: 18%;
+    height: 100%;
+}
+
+
+.bggr {
+    background: cadetblue;
+    width: 28%;
+    height: 100%;
+}
+
+.huge {
+    background: dimgray;
+    width: 48%;
+    height: 100%;
+}
+
+.contacts {
+    background: blue;
+    width: 100%;
+    height: 50%;
+}
+
