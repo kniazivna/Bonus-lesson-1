@@ -116,7 +116,6 @@ body {
 
 .two {
     height: 10%;
-    /*display: flex;*/
     flex-direction: column;
     justify-content: center;
     align-items: center;
@@ -226,9 +225,170 @@ body {
 
 .four {
     height: 35%;
+
+}
+.four-top{
+    height: 20%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 7px;
+}
+.four-top-item1 {
+    background: dimgray;
+    width: 50%;
+    height: 30%;
+
 }
 
+.four-top-item2 {
+    background: lightslategrey;
+    width: 40%;
+    height: 15%;
+}
+
+.four-top-item3 {
+    background: lightslategrey;
+    width: 33%;
+    height: 15%;
+}
+
+.four-buttom{
+    height: 80%;
+    display: flex;
+}
+
+.four-buttom-left{
+    width: 40%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 7px;
+}
+.four-buttom-left-items{
+    background: grey;
+    width: 96%;
+    height: 23%;
+}
+
+.four-buttom-right{
+    width: 60%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    row-gap: 7px;
+}
+
+.four-buttom-right-items{
+    width: 96%;
+    height: 23%;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    align-items: center;
+    row-gap: 7px;
+}
+.four-buttom-right-items-top{
+    height: 75%;
+    width: 96%;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    row-gap: 7px;
+    margin-top: 5px;
+
+}
+.four-buttom-right-items-top-item1{
+    background: dimgray;
+    height: 20%;
+    width: 50%;
+
+}
+.four-buttom-right-items-top-item2{
+    background: dimgray;
+    height: 10%;
+    width: 40%;
+
+}
+.four-buttom-right-items-top-item3{
+    background: grey;
+    height: 5%;
+    width: 30%;
+}
+
+.four-buttom-right-items-bottom{
+    height: 25%;
+    width: 96%;
+    display: flex;
+    justify-content: flex-start;
+    margin-bottom: 5px;
+}
+.four-buttom-right-items-bottom-item{
+    background: dimgray;
+    height: 96%;
+    width: 20%;
+}
 .five {
     height: 15%;
+    display: flex;
+}
+.five-left{
+    width: 75%;
+    height: 96%;
+    display: flex;
 
+}
+.five-left-box{
+    flex-grow: 1;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    row-gap: 7px;
+    margin-left: 5%;
+
+}
+.five-left-box-header{
+    background: dimgray;
+    width: 80%;
+    height: 5%;
+}
+
+.five-left-box-item{
+    background: lightslategrey;
+    width: 60%;
+    height: 2%;
+}
+.five-right{
+    width: 25%;
+    height: 96%;
+    display: flex;
+    flex-direction: column;
+    row-gap: 7px;
+}
+.five-right-top{
+    background: dimgray;
+    height: 6%;
+    width: 70%;
+    margin-top: 39%;
+
+}
+.five-right-bottom{
+    height: 15%;
+    width: 70%;
+    display: flex;
+    justify-content: space-between;
+}
+.five-right-bottom-circle{
+    background: lightslategrey;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    box-sizing: border-box;
 }
