@@ -1,0 +1,53 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+.bg {
+    background: #c4c3c3;
+}
+
+.bradius {
+    border-radius: .5%;
+    box-sizing: border-box;
+}
+
+.flex {
+    display: flex;
+}
+
+.w99 {
+    width: 99%;
+}
+
+.wrap {
+    margin: 0 auto;
+    padding: 7px;
+    width: 1200px;
+    height: 1000px;
+    border: grey solid;
+    box-sizing: border-box;
+    border-radius: 3%;
+    flex-direction: column;
+    align-items: center;
+
+
+}
+
+.top {
+    height: 30%;
+    margin-bottom: 7px;
+}
+
+.bottom {
+    height: 70%;
+    column-gap: 7px;
+}
+
+.bottom__left {
+    width: 75%;
+}
+
+.bottom__right {
+    flex-grow: 1;
+}
