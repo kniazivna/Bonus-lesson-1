@@ -7,80 +7,97 @@
         background: darkslateblue;
     }
 
-}
-.wrap {
-    margin: 0 auto;
-    padding: 0;
-    width: 480px;
-    min-height: 1900px;
-}
-.social {
-    height: 15px;
-}
-.header {
-    height: 35px;
-}
-.header__logo {
-    height: 30px;
-}
-.header__nav {
-    /*display: none;*/
-    background: snow;
-    height: 5px;
-    width: 25px;
-}
-.header__nav__item{
-    display: none;
-}
-.slider {
-    height: 120px;
-}
-.slider__box__text{
-    display: none;
-}
-.slider__box__button{
-    margin-top: 25%;
+
+    .wrap {
+        margin: 0 auto;
+        padding: 0;
+        width: 480px;
+        min-height: 1900px;
+    }
+
+    .social {
+        height: 15px;
+    }
+
+    .header {
+        height: 35px;
+    }
+
+    .header__logo {
+        height: 30px;
+    }
+
+    .header__nav {
+        /*display: none;*/
+        background: snow;
+        height: 5px;
+        width: 25px;
+    }
+
+    .header__nav__item {
+        display: none;
+    }
+
+    .slider {
+        height: 120px;
+    }
+
+    .slider__box__text {
+        display: none;
+    }
+
+    .slider__box__button {
+        margin-top: 25%;
+    }
+
+    .recomendations {
+        height: 200px;
+
+    }
+
+    .recomendations__main {
+        width: 40%;
+        flex-wrap: wrap;
+        height: 40px;
+        column-gap: 10%;
+        row-gap: 10%;
+    }
+
+    .recomendations__main__item {
+        width: 40%;
+    }
+
+    .recomendations__footer {
+        display: none;
+    }
+
+    .popular {
+        height: 700px;
+    }
+
+    .popular__box {
+        flex-wrap: wrap;
+        align-items: center;
+        height: 33%;
+    }
+
+    .popular__card {
+        width: 60%;
+    }
+
+    .products__card {
+        width: 40%;
+    }
+
+    .products__promo {
+        height: 300px;
+        flex-direction: column;
+        margin-top: 40%;
+        margin-bottom: 10%;
+    }
+
+    .footer {
+        height: 50px;
+    }
 }
 
-.recomendations {
-    height: 200px;
-
-}
-.recomendations__main{
-    width: 40%;
-    flex-wrap: wrap;
-    height: 40px;
-    column-gap: 10%;
-    row-gap: 10%;
-}
-.recomendations__main__item{
-    width: 40%;
-}
-
-.recomendations__footer{
-    display: none;
-}
-.popular{
-    height: 700px;
-}
-.popular__box {
-    flex-wrap: wrap;
-    align-items: center;
-    height: 33%;
-}
-.popular__card {
-    width: 60%;
-}
-.products__card{
-    width: 40%;
-}
-
-.products__promo{
-    height: 300px;
-    flex-direction: column;
-    margin-top: 40%;
-    margin-bottom: 10%;
-}
-.footer{
-    height: 50px;
-}

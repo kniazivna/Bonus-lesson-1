@@ -24,13 +24,7 @@ body {
     background: mediumpurple;
 }
 
-/*.height100 {
-    height: 100px;
-}
 
-.width100 {
-    width: 100px;
-}*/
 .height150 {
     height: 150px;
 }
@@ -66,6 +60,7 @@ body {
 
 .header {
     align-items: center;
+    height: 100px;
 }
 
 .header__logo {
