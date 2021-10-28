@@ -10,31 +10,31 @@
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,500&family=Tinos:wght@400;700&display=swap"
           rel="stylesheet">
-    <link rel="stylesheet" href="main.css">
-    <link rel="stylesheet" href="media.css">
+    <link rel="stylesheet" href="css/main.css">
+    <link rel="stylesheet" href="css/media.css">
 </head>
 <body>
-<div class="header">
-    <div class="header__top wrapper">
+<div class="header wrapper">
+    <div class="header__top">
         <div class="header__logo"><img src="image/LOGO.svg" alt="logo"></div>
-        <div class="header__menu">
+        <div class="header_menu">
             <nav class="nav">
                 <div class="nav__item"><a href="#">ГЛАВНАЯ</a></div>
                 <div class="nav__item"><a href="#">МЕНЮ</a></div>
                 <div class="nav__item"><a href="#">О НАС</a></div>
                 <div class="nav__item"><a href="#">БРОНЬ</a></div>
-                <div class="nav__item"><a href="#"><img src="image/shopping-cart-solid.svg" alt="shopping-card"></a>
+                <div class="nav__item"><a href="#"><img src="image/shopping-cart-solid.svg" alt="shopping-cart"></a>
                 </div>
             </nav>
             <div class="header__contact">
-                <div class="header__phone"><img src="image/phone.png" alt="phone">+999-888-76-54
+                <div class="header__phone">
+                    <img src="image/phone.png" alt="phone">+999-888-76-54
                     <p>Свяжитесь с нами для
                         бронирования</p>
                 </div>
-                <button class="header__button">ЗАКАЗ СТОЛИКА</button>
-
+                <div class="header__button">ЗАКАЗ СТОЛИКА
+                </div>
             </div>
-
         </div>
         <div class="nav__btn__mobile">
             <div></div>
@@ -54,20 +54,20 @@
         </div>
     </div>
     <div class="header__mask wrapper">
-        <div class="header__mask__item">
+        <div class="mask__item">
             <img src="image/Mask%20Group.png" alt="plate">
             <h2>Магическая <span>Атмосфера</span></h2>
             <p>В нашем заведении царит магическая атмосфера
                 наполненная вкусными ароматами</p>
         </div>
-        <div class="header__mask__item">
+        <div class="mask__item">
             <img src="image/Mask%20Group.png" alt="plate">
             <h2>Лучшее качество <span>Еды</span></h2>
             <p>Качество нашей
                 Еды - отменное!
             </p>
         </div>
-        <div class="header__mask__item">
+        <div class="mask__item">
             <img src="image/Mask%20Group.png" alt="plate">
             <h2>Недорогая <span>Еда</span></h2>
             <p>Стоимость нашей Еды
@@ -75,13 +75,42 @@
                 количества. Качество
                 всегда на высоте!</p>
         </div>
+    </div>
+</div>
+
+<div class="history wrapper">
+    <div class="history__title">
+        <div class="history__description">
+            <h2>Наша <span>История</span></h2>
+            <p>Как и у любого другого самобытного места, у нас есть своя, особая история. Идея ресторана пришла
+                основателям неожиданно. Во время прогулки по лесу создатель нашего ресторана застрял в сотнях километров
+                от ближайшего населенного пункта. Вдали от цивилизации и связи им пришлось навремя обустровать себе
+                нехитрый быт, добывать и готовить себе еду.</p>
+        </div>
+        <div class="history__details">
+            <div class="details__item">
+                <h3>93</h3>
+                <p>Напитки</p>
+            </div>
+            <div class="details__item">
+                <h3>206</h3>
+                <p>Еда</p>
+            </div>
+            <div class="details__item">
+                <h3>71</h3>
+                <p>Закуски</p>
+            </div>
+        </div>
+
+    </div>
+    <div class="history__images">
+        <img class="img-item" src="/lesson-6-homework-restaurant-training-2/image/history_images.png" alt="restaurant-photo">
 
     </div>
 
 
 </div>
 
-</div>
 
 </body>
 </html>
