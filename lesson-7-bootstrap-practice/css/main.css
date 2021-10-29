@@ -1,0 +1,125 @@
+.header{
+    background: rgba(255, 255, 255, 0.3);
+    mix-blend-mode: normal;
+    border: 1px solid #FFFFFF;
+    box-sizing: border-box;
+    box-shadow: 0 -1px 10px rgba(0, 0, 0, 0.1);
+    backdrop-filter: blur(20px);
+}
+.navbar-light .navbar-nav .nav-link{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 20px;
+    color: #45494F;
+}
+
+.navbar-light .navbar-nav .nav-link{
+    border: 2px solid transparent;
+}
+
+.navbar-light .navbar-nav .nav-link:focus, .navbar-light .navbar-nav .nav-link:hover {
+    color: #2E75FF;
+    border: 2px solid #EAEDF5;
+    box-sizing: border-box;
+    border-radius: 8px;
+}
+.produkte-left{
+    margin-top: 100px;
+}
+
+.produkte-left h1{
+    font-weight: bold;
+    font-size: 48px;
+    line-height: 54px;
+    letter-spacing: -0.4px;
+    color: #1652AC;
+}
+
+.produkte-left .produkte-text{
+    /*font-weight: 600;*/
+    font-size: 17px;
+    line-height: 32px;
+    letter-spacing: -0.4px;
+    color: #020303;
+    margin-top: 125px;
+    position: relative;
+}
+
+.produkte-left .produkte-text::before,
+.produkte-left .produkte-texprodukte-text::after{
+    content: "";
+    display: block;
+    position: absolute;
+    width: 227px;
+    height: 7px;
+    background-color: #EDEFF3;
+}
+.produkte-left .produkte-text::before{
+    top: -55px;
+}
+.produkte-left .produkte-text::after{
+    bottom: -55px;
+}
+
+.energieffizienz h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #1652AC;
+}
+.energieffizienz .energieffizienz-text{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+}
+.modernstandarts-right{
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+    padding: 151px 200px 10px 151px;
+    box-sizing: border-box;
+}
+
+.modernstandarts-right h2{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    color: #FBFDFF;
+}
+.modernstandarts-right{
+    background: linear-gradient(180deg, #163DA2 0%, #003584 100%);
+}
+.modernstandarts-right .modernstandarts-text{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #FBFDFF;
+}
+.spezialitat-left{
+    padding: 90px 0 0 20px;
+    box-sizing: border-box;
+}
+
+.spezialitat-left h2{
+    font-size: 20px;
+    line-height: 40px;
+    letter-spacing: 2.42px;
+    text-transform: uppercase;
+    color: #1652AC;
+}
+.spezialitat-left .spezialitat-text{
+    font-weight: normal;
+    font-size: 17px;
+    line-height: 32px;
+    color: #45494F;
+
+}
+.spezialitat-right{
+background: #fff;
+}
+
+.spezialitat-right img{
+    width: 100%;
+    max-height:650px;
+}
