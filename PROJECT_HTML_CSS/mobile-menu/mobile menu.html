@@ -1,0 +1,72 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+</head>
+<body>
+
+</body>
+</html>
+
+<style>
+    .mobile__menu {
+        height: 60px;
+        column-gap: 45px;
+        background-color: #FFFFFF;
+        box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+        /*position: absolute;*/
+        top: 625px;
+        display: none;
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+
+    .mobile__menu button {
+        background: transparent;
+        border: none;
+    }
+
+    @media screen and (max-width: 769px) {
+        .mobile__menu{
+            display: none;
+        }
+    }
+    @media screen and (max-width: 415px) {
+        .mobile__menu{
+            display: flex;
+        }
+    }
+    @media screen and (max-width: 321px) {
+        .mobile__menu{
+            column-gap: 30px;
+        }
+    }
+
+</style>
+
+
+
+
+
+
+
+
+
+
+
+<div class="mobile__menu">
+    <button class="mobile__menu_main-page"><img src="../imgs/mobile__menu_main-page.png" alt="mobile__menu_main-page-icon">
+    </button>
+    <button class="mobile__menu_favourite"><img src="../imgs/mobile__menu_favourite.png" alt="mobile__menu_favourite-icon">
+    </button>
+    <button class="mobile__menu_shopping-cart"><img src="../imgs/mobile__menu_shopping-cart.png"
+                                                    alt="mobile__menu_shopping-cart-icon"></button>
+    <button class="mobile__menu_user-profile"><img src="../imgs/mobile__menu_user-profile.png"
+                                                   alt="mobile__menu_user-profile-icon"></button>
+
+</div>
